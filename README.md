@@ -19,4 +19,5 @@ git push
 -   Go to **Settings**
     -   Navigate to the **Github Pages** section
     -   Select the branch as **gh-pages** and select the folder as **root**
+    -   Website url will be found in this [link](https://aishudilip1516.github.io/sweetkissboutique/)
 
