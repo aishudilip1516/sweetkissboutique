@@ -1,10 +1,10 @@
-.logo-weight {
-    height: 15vmin;
+.logo-size {
+    height: 5vmin;
     pointer-events: none;
   }
   
 
-  .etsy-logo {
+.etsy-logo {
     height: 15vmin;
     pointer-events: none;
   }
