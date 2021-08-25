@@ -1,9 +1,11 @@
 import logo from './static/images/ak.png';
 import etsy from './static/images/etsy-icon.png';
+import tiktok from './static/images/tik-tok.png';
 import './App.css';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import Typography from '@material-ui/core/Typography';
 import { Link } from '@material-ui/core';
+import ImageWithLink from './components/ImageWithLink';
 
 
 function App() {
@@ -24,7 +26,18 @@ function App() {
           Etsy
         </Typography>
         <br />
+        <br /> 
+
+        <Link href="https://vm.tiktok.com/ZMRjHLWnX/" >
+          <img src={tiktok} className="etsy-logo" alt="logo" />
+        </Link>
+        <Typography>
+        tiktok
+        </Typography>
         <br />
+        <br /> 
+
+        {/* <ImageWithLink link="https://www.etsy.com/shop/SweetKissBoutique" imgSrc={etsy} appName='Etsya'/> */}
         <div>
           <Link href="https://www.instagram.com/sweetkissboutique/" underline="none">
             <InstagramIcon style={{ fontSize: 80 }} />
